@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Marsha</title>
+
+    <link rel="stylesheet" href="web.css">
+    <script src="web.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">PORTO<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">HALO, SAYA MARSHA</p>
+
+            <h1>
+                Saya seorang<br>
+                <span class="highlight">Web Developer.</span>
+            </h1>
+
+            <p class="description">
+                Saya membuat website yang modern, kreatif,
+                responsif, dan memberikan pengalaman terbaik
+                bagi para penggunanya.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Lihat Proyek ↗
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Hubungi Saya
+                </a>
+            </div>
+
+            <div class="social-info">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="glow"></div>
+
+            <div class="profile-card">
+                <div class="card-top">
+                    <span>MY PORTFOLIO</span>
+                    <span class="online-dot"></span>
+                </div>
+
+                <div class="profile-icon"></div>
+
+                <h2>Creative Developer</h2>
+                <p>Turning ideas into digital experiences.</p>
+
+                <div class="card-bottom">
+                    <span>DESIGN</span>
+                    <span>DEVELOP</span>
+                    <span>CREATE</span>
+                </div>
+            </div>
+
+            <div class="floating-badge badge-one">
+                &lt;/&gt; Clean Code
+            </div>
+
+            <div class="floating-badge badge-two">
+                ✦ Creative Ideas
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+        <div class="section-label">01 / TENTANG SAYA</div>
+
+        <h2 class="section-title">
+            Mengenal saya lebih <span class="highlight">dekat.</span>
+        </h2>
+
+        <div class="about-content">
+            <div>
+                <h3>Kreatif, konsisten, dan terus berkembang.</h3>
+
+                <p>
+                    Saya adalah seseorang yang tertarik dengan
+                    teknologi, desain, dan pengembangan website.
+                    Saya senang mempelajari hal baru serta
+                    mengubah ide menjadi karya digital.
+                </p>
+            </div>
+
+            <div class="skills">
+                <h3>Keahlian Saya</h3>
+
+                <div class="skill-list">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                    <span>UI/UX Design</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+        <div class="section-label">02 / PROYEK SAYA</div>
+
+        <h2 class="section-title">
+            Karya pilihan <span class="highlight">saya.</span>
+        </h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <div class="project-image image-one">
+                    <span>01</span>
+                    <div class="project-symbol">🌐</div>
+                </div>
+
+                <div class="project-info">
+                    <h3>Website Portofolio</h3>
+                    <p>Website pribadi dengan desain modern dan responsif.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image image-two">
+                    <span>02</span>
+                    <div class="project-symbol">📱</div>
+                </div>
+
+                <div class="project-info">
+                    <h3>UI/UX Mobile App</h3>
+                    <p>Konsep antarmuka aplikasi mobile yang intuitif.</p>
+                    <div class="tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image image-three">
+                    <span>03</span>
+                    <div class="project-symbol">🎮</div>
+                </div>
+
+                <div class="project-info">
+                    <h3>Game Development</h3>
+                    <p>Eksplorasi game interaktif dan pengalaman bermain.</p>
+                    <div class="tags">
+                        <span>Game</span>
+                        <span>Creative</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+        <div class="contact-box">
+            <div class="section-label">03 / KONTAK</div>
+
+            <h2>
+                Punya ide menarik?<br>
+                <span class="highlight">Mari bekerja sama.</span>
+            </h2>
+
+            <p>
+                Jangan ragu untuk menghubungi saya.
+                Saya terbuka untuk berdiskusi dan berkolaborasi.
+            </p>
+
+            <a href="mailto:emailkamu@example.com"
+               class="btn btn-primary">
+                Kirim Email ↗
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">PORTO<span>.</span></a>
+
+        <p>
+            © <span id="year"></span> Marsha.
+            Dibuat dengan HTML, CSS & JavaScript.
+        </p>
+
+        <a href="#home" class="back-top">KEMBALI KE ATAS ↑</a>
+    </footer>
+
+</body>
+</html>
